@@ -58,11 +58,9 @@ function App() {
         <div className="card">
           <h2>{userData.login}</h2>
           <img src={userData.avatar_url} alt="Avatar" />
-          <p>
-            <a href={userData.html_url} target="_blank" rel="noreferrer">
-              Ver perfil de GitHub
-            </a>
-          </p>
+          <a href={userData.html_url} target="_blank" rel="noreferrer">
+            Ver perfil de GitHub
+          </a>
         </div>
       )}
     </div>
